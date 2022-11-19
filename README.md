@@ -11,7 +11,7 @@ The ones I currently use are:
 - [coc-vetur](https://github.com/neoclide/coc-vetur)
 
 ## Warn
-- Some of my coc extensions and plugins installed collide with each other, so you may have some problems when you want to complete, but I'm used to it for now so I don't care
+- Some of my coc extensions and plugins installed collide with each other, so you may have some problems when you want to auto complete, but I'm used to it for now so I don't care
 - I have a lot plugins and extensions so it makes my vim quite slow, if I just want to open big file only for reading or something I use nvim (of which I don't write programs in nor have installed plugins in it)
 
 Aside from that I like my vim settings, some useful commands that I use frequently are:
