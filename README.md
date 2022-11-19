@@ -18,8 +18,13 @@ Aside from that I like my vim settings, some useful commands that I use frequent
 
 ### folding
 za - toggle folding 1 level
+
 zA - toggle folding all levels
+
 zm - folding close 1 level
+
 zM - folding close all levels
+
 zr - folding open 1 level
+
 zR - folding open all levels
