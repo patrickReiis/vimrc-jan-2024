@@ -1,5 +1,5 @@
 # vimrc-nov-2022
-My current vimrc.
+My current vimrc as of nov 19, 2022.
 
 ## Note
 I use some [coc extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions) that are not visible in the vimrc file.
