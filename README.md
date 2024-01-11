@@ -14,6 +14,7 @@ For Vue files I'm using the extensions:
 
 ---
 Coc extensions status:
+
 &nbsp;&nbsp;&nbsp;&nbsp;\? means invalid extension
 
 &nbsp;&nbsp;&nbsp;&nbsp;\* means extension is activated
