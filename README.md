@@ -13,11 +13,12 @@ For Vue files I'm using the extensions:
   \* @yaegassy/coc-volar 0.24.10 ~/.config/coc/extensions/node_modules/@yaegassy/coc-volar
 
 ---
-Coc extensions status
-\? means invalid extension
-\* means extension is activated
-\+ means extension is loaded
-\- means extension is disabled
+Coc extensions status:
+&nbsp;&nbsp;&nbsp;&nbsp;\? means invalid extension
+&nbsp;&nbsp;&nbsp;&nbsp;\* means extension is activated
+&nbsp;&nbsp;&nbsp;&nbsp;\+ means extension is loaded
+&nbsp;&nbsp;&nbsp;&nbsp;\- means extension is disabled
+
 ---
 
 The ones I currently use are:
