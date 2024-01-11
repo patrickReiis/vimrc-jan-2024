@@ -1,14 +1,13 @@
+set wildmenu
+set wildmode=longest:full,full
+
 syntax on
 filetype plugin indent on
 :set number
 :set foldmethod=syntax
 :set termguicolors
 
-:set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-
 :set updatetime=500
-set wildmenu
-set wildmode=longest:full,full
 
 let g:ale_linter_aliases = {'vue': ['vue', 'javascript', 'html']} " vue ALE test
 
@@ -40,12 +39,17 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+
+
 Plugin 'mattn/emmet-vim' " it helps witl HTML
 
 Plugin 'leafOfTree/vim-vue-plugin'  " it says that it helps with vue
 
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'ycm-core/YouCompleteMe' " YouCompleteMe adds pop up messages when hovering, if i want to disable just comment this out
+
+Plugin 'fatih/vim-go'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -64,8 +68,16 @@ filetype plugin indent on    " required
 
 call plug#begin('~/.vim/plugged')
 
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " this plug in is good because it displays info when I type
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+Plug 'yuezk/vim-js' " tsx syntax
+Plug 'maxmellon/vim-jsx-pretty' " highlight for jsx
+
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 " Initialize plugin system
 call plug#end()
@@ -80,3 +92,22 @@ nmap <M-Right> :vertical resize +1<CR>
 nmap <M-Left> :vertical resize -1<CR>
 nmap <M-Down> :resize +1<CR>
 nmap <M-Up> :resize -1<CR>
+
+let g:vim_jsx_pretty_colorful_config = 1
+let g:vim_jsx_pretty_highlight_close_tag = 1
+let g:vim_jsx_pretty_colorful_config = 1
+let g:vim_jsx_pretty_template_tags = 1
+
+set wildmenu
+set wildmode=longest:full,full
+
+:set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab
+
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
+let g:ale_linters = {
+  \ 'go': ['gopls'],
+  \}
+
+let g:go_auto_type_info = 1
