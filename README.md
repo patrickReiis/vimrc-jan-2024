@@ -14,11 +14,10 @@ For Vue files I'm using the extensions:
 
 ------------------------------------------
 Coc extensions status
-
-? means invalid extension
-* means extension is activated
-+ means extension is loaded
-- means extension is disabled
+\? means invalid extension
+\* means extension is activated
+\+ means extension is loaded
+\- means extension is disabled
 ------------------------------------------
 
 The ones I currently use are:
