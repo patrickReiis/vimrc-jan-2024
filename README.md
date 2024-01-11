@@ -5,20 +5,20 @@ My current vimrc as of jan 11, 2024.
 I use some [coc extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions) that are not visible in the vimrc file.
 
 For Vue files I'm using the extensions: 
-  * coc-yank 1.2.1 ~/.config/coc/extensions/node_modules/coc-yank                                                                                                            
-  * coc-prettier 9.3.1 ~/.config/coc/extensions/node_modules/coc-prettier
-  * coc-html 1.8.0 ~/.config/coc/extensions/node_modules/coc-html
-  * coc-highlight 2.0.4 ~/.config/coc/extensions/node_modules/coc-highlight
-  * coc-emmet 1.1.6 ~/.config/coc/extensions/node_modules/coc-emmet
-  * @yaegassy/coc-volar 0.24.10 ~/.config/coc/extensions/node_modules/@yaegassy/coc-volar
+  \* coc-yank 1.2.1 ~/.config/coc/extensions/node_modules/coc-yank                                                                                                            
+  \* coc-prettier 9.3.1 ~/.config/coc/extensions/node_modules/coc-prettier
+  \* coc-html 1.8.0 ~/.config/coc/extensions/node_modules/coc-html
+  \* coc-highlight 2.0.4 ~/.config/coc/extensions/node_modules/coc-highlight
+  \* coc-emmet 1.1.6 ~/.config/coc/extensions/node_modules/coc-emmet
+  \* @yaegassy/coc-volar 0.24.10 ~/.config/coc/extensions/node_modules/@yaegassy/coc-volar
 
-------------------------------------------
+---
 Coc extensions status
 \? means invalid extension
 \* means extension is activated
 \+ means extension is loaded
 \- means extension is disabled
-------------------------------------------
+---
 
 The ones I currently use are:
 - [coc-highlight](https://github.com/neoclide/coc-highlight)
